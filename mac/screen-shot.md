@@ -29,9 +29,11 @@ $ defaults write com.apple.screencapture name "<prefix>" // 空だとプレフ�
 $ killall SystemUIServer
 ```
 
+## 保存先の変更設定
 
+Desktop配下の「SS」フォルダに保存する場合
 
-
-
-
-
+```
+$ defaults write com.apple.screencapture location ~/Desktop/SS/
+$ killall SystemUIServer
+```
