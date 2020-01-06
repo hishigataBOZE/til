@@ -22,7 +22,7 @@ ssh: Could not resolve hostname git.jetbrains.space/hartman: Name or service not
 ```
 
 
-### git cloneで`Permission denied (publickey)`
+### 例2 git cloneで`Permission denied (publickey)`
 
 ```bash
 $ git clone ssh://git@git.jetbrains.space/xxx/xxxx.git xxxxx
