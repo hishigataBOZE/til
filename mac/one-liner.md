@@ -6,3 +6,4 @@
 
 - アカウント個別のhostsファイル：`/private/etc/hosts`
 - sudo実行が必要な場合、`-c`オプションをつけ、ダブルクォーテーションで実行コマンドをくくる
+- キャッシュリセット`sudo killall -HUP mDNSResponder`
