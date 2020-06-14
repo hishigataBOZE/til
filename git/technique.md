@@ -28,3 +28,9 @@ $ git remote -v
 origin	https://github.com/hishigataBOZE/here-is-github.git (fetch)
 origin	https://github.com/hishigataBOZE/here-is-github.git (push)
 ```
+
+## 特定ファイルを特定のコミットに戻す
+
+`git checkout [コミット番号] [ファイルパス]`
+
+- 参考：https://qiita.com/ritukiii/items/5bc8f74dbf4dc5d1384c
